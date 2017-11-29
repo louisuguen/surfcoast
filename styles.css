@@ -1,0 +1,90 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 5%;
+}
+
+.logo img{
+  width: 200px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu a {
+  width: 200px;
+  line-height: 7;
+  display: inline-block;
+}
+
+.banner{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./img/Fond.jpg');
+  height: 500px;
+}
+
+.banner .cta {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.cta button{
+  background-color: #4EA5D9;
+  padding: 5px 15px;
+  border: 0;
+  border-radius: 15px;
+  color: white
+  
+   
+  }
+
+}
+
+.why {
+  margin: 0 auto;
+  width: 90%;
+  text-align: justify;
+}
+.why h3{
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.newsletter {
+  padding-top: 50px;
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+}
+
+footer{
+  margin-top: 50px;
+  background-color:rgb(62, 62, 62);
+}
+
+footer .foot {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .socials{
+  display: flex;
+  justify-content: space-around;
+}
+footer .socials img {
+  width: 50px;
+  margin: 10px 20px;
+}
+  
+footer .copyright{
+  line-height: 100;
+  color: white;
+}
