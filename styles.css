@@ -22,7 +22,7 @@ nav {
 .banner{
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('./img/Fond.jpg');
+  background-image: url('Fond.jpg');
   height: 500px;
 }
 
